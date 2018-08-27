@@ -10,9 +10,9 @@ argnumbers = len(sys.argv) - 1
 
 if argnumbers == 2 :
     print("")
-	print("--------------------")
+	
     print("The result isssssssssssss " + str(calc.add2(str(sys.argv[1]), str(sys.argv[2]))))
-    print("------------------")
+
 	print("")
     sys.exit(0)
 
